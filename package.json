@@ -1,6 +1,6 @@
 {
   "name": "@rollup-umd/word-documentation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Documentation layout that aim to write a documentation/document with the styling of a word document",
   "main": "lib/index.js",
   "jsnext:main": "dist/@yeutech/word-documentation.esm.js",
