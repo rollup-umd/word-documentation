@@ -6,7 +6,7 @@ import Li from '@bootstrap-styled/v4/lib/Li';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { hover } from '@bootstrap-styled/css-mixins/lib/hover';
 import styled from 'styled-components';
-import mapToCssModules from 'map-to-css-modules/lib';
+import mapToCssModules from 'map-to-css-modules';
 import debounce from 'lodash.debounce';
 import cn from 'classnames';
 import omit from 'lodash.omit';

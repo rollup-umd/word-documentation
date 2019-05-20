@@ -6,9 +6,7 @@ import omit from 'lodash.omit';
 import mapToCssModules from 'map-to-css-modules/lib';
 import Nav from '@bootstrap-styled/v4/lib/Nav';
 import Form from '@bootstrap-styled/v4/lib/Form';
-// import Input from '@bootstrap-styled/v4/lib/Input';
 import Input from '@material-ui/core/Input';
-
 
 export const defaultProps = {
   theme: {
