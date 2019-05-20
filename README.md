@@ -15,6 +15,7 @@ Rollup-UMD documentation layout that aim to write a documentation/document with 
 [![build status](https://module.kopaxgroup.com/rollup-umd/word-documentation/badges/dev/build.svg)](https://module.kopaxgroup.com/rollup-umd/word-documentation/commits/dev)
 [![coverage report](https://module.kopaxgroup.com/rollup-umd/word-documentation/badges/dev/coverage.svg)](https://module.kopaxgroup.com/rollup-umd/word-documentation/commits/dev)
 
+
 ## Table of Contents
 
   - [Documentation](#documentation)
