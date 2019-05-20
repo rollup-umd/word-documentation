@@ -11,31 +11,8 @@
       "content": "docs/introduction.md"
     },
     {
-      "name": "Prerequisite",
-      "content": "docs/prerequisite.md"
-    },
-    {
-      "name": "Getting started",
-      "content": "docs/getting-started.md",
-      "sections": [
-        {
-          "name": "Installation",
-          "content": "docs/installation.md"
-        },
-        {
-          "name": "Configuration",
-          "content": "docs/configuration.md"
-        }
-      ]
-    },
-    {
-      "name": "JSdoc",
-      "description": "This part is generated from the JSdoc annotations in the source code.",
-      "content": "docs/js/jsdoc.md"
-    },
-    {
-      "name": "FAQ",
-      "content": "docs/faq.md"
+      "name": "Installation",
+      "content": "docs/installation.md"
     },
     {
       "name": "Contribute",
@@ -59,5 +36,9 @@
       "name": "Code of conduct",
       "content": "CODE_OF_CONDUCT.md"
     }
-  ]
+  ],
+  "ribbon": {
+    "url": "https://github.com/rollup-umd/word-documentation",
+    "text": "Fork us on GitHub"
+  }
 }
