@@ -8,7 +8,7 @@ import styled from 'styled-components';
 import mapToCssModules from 'map-to-css-modules/lib';
 import cn from 'classnames';
 import omit from 'lodash.omit';
-import ComponentsList from '@bootstrap-styled/rsg-components/lib/ComponentsList';
+import ComponentsList from '../ComponentsList';
 import TableOfContentsRenderer from './TableOfContentsRenderer';
 
 /* eslint-disable react/prop-types, react/destructuring-assignment */
