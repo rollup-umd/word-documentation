@@ -1,5 +1,7 @@
 # word-documentation
 
+![banner](https://user-images.githubusercontent.com/1866564/58097123-ec593d80-7bd6-11e9-86ae-4c0d1d0fe975.png)
+
 [![Build Status](https://travis-ci.org/rollup-umd/word-documentation.svg?branch=master)](https://travis-ci.org/rollup-umd/word-documentation)
 [![npm Version](https://img.shields.io/npm/v/@rollup-umd/word-documentation.svg?style=flat)](https://www.npmjs.com/package/@rollup-umd/word-documentation)
 [![License](https://img.shields.io/npm/l/@rollup-umd/word-documentation.svg?style=flat)](https://www.npmjs.com/package/@rollup-umd/word-documentation)
@@ -10,8 +12,7 @@
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.github.rollup-umd.word-documentation&metric=coverage)](https://sonarcloud.io/dashboard?id=com.github.rollup-umd.word-documentation) [![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=com.github.rollup-umd.word-documentation&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.github.rollup-umd.word-documentation)
 
 
-Rollup-UMD documentation layout that aim to write a documentation/document with the styling of a word document
-
+Rollup-UMD layout documentation to render a documentation with the styling of a text document and hability to print a nice PDF
 
 ## Table of Contents
 
