@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Button from '@bootstrap-styled/v4/lib/Button';
-import P from '@bootstrap-styled/v4/lib/P';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import filterSectionsByName from 'react-styleguidist/lib/client/utils/filterSectionsByName';
 import styled from 'styled-components';
 import mapToCssModules from 'map-to-css-modules/lib';
@@ -72,19 +69,8 @@ class TableOfContentsUnstyled extends Component {
 
   state = {
     searchTerm: '',
-    hasCollapse: false,
     isOpenCollapse: true,
   };
-
-  componentWillMount() {
-    this.props.sections.map((section) => {
-      const children = [...(section.sections || []), ...(section.components || [])];
-      this.setState({
-        hasCollapse: children.length > 0,
-      });
-      return null;
-    });
-  }
 
   shouldComponentUpdate(nextState) {
     return (this.state.isOpenCollapse !== nextState.isOpenCollapse || this.state.searchTerm !== nextState.searchTerm);
@@ -145,8 +131,6 @@ class TableOfContentsUnstyled extends Component {
     } = omit(this.props, ['theme', 'useRouterLinks', 'sections']);
     const {
       searchTerm,
-      hasCollapse,
-      isOpenCollapse,
     } = this.state;
     return (
       <TableOfContentsRenderer
@@ -155,20 +139,6 @@ class TableOfContentsUnstyled extends Component {
         onSearchTermChange={(searchTerm) => this.setState({ searchTerm })} // eslint-disable-line no-shadow
         {...attributes}
       >
-        {hasCollapse && (
-          <Button className="collapse-button no-print" onClick={() => this.onChangeCollapse()}>
-            <div className="collapse-button-content">
-              <P>
-                {isOpenCollapse ? 'Collapse all' : 'Expand all'}
-                <FontAwesomeIcon
-                  className={`collapse-button-content-icon ${!isOpenCollapse ? 'no-collapse' : ''}`}
-                  size="lg"
-                  icon={['fas', 'angle-up']}
-                />
-              </P>
-            </div>
-          </Button>
-        )}
         {this.renderSections()}
       </TableOfContentsRenderer>
     );
