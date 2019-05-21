@@ -16,11 +16,21 @@ Rollup-UMD layout documentation to render a documentation with the styling of a 
 
 ## Table of Contents
 
+  - [Benefits](#benefits)
   - [Documentation](#documentation)
   - [Contributing](#contributing)
   - [License MIT](#license-mit)
 
 ---
+
+
+## Benefits
+
+- Use markdown as input to render HTML
+- Print HTML into PDF 
+- It work with ES6 so you can have digital and interactive presentation
+- Left pan viewer with the content of the document
+- Support theme customization thanks to [Bootstrap-Styled](https://github.com/bootstrap-styled)
 
 ## Documentation
 
