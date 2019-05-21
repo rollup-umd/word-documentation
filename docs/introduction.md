@@ -6,3 +6,11 @@
 
 
 $PACKAGE_DESCRIPTION
+
+## Benefits
+
+- Use markdown as input to render HTML
+- Print HTML into PDF 
+- It work with ES6 so you can have digital and interactive presentation
+- Left pan viewer with the content of the document
+- Support theme customization thanks to [Bootstrap-Styled](https://github.com/bootstrap-styled) 
