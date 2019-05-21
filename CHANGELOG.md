@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/rollup-umd/word-documentation/compare/v2.0.2...v2.0.3) (2019-05-21)
+
+
+### Bug Fixes
+
+* **assets:** added favicon and banner ([329bdd4](https://github.com/rollup-umd/word-documentation/commit/329bdd4))
+
 ## [2.0.2](https://github.com/rollup-umd/word-documentation/compare/v2.0.1...v2.0.2) (2019-05-21)
 
 

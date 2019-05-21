@@ -1,6 +1,6 @@
 {
   "name": "@rollup-umd/word-documentation",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Rollup-UMD layout documentation to render a documentation with the styling of a text document and hability to print a nice PDF",
   "main": "lib/index.js",
   "jsnext:main": "dist/@yeutech/word-documentation.esm.js",
