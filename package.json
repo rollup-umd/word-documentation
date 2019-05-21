@@ -1,6 +1,6 @@
 {
   "name": "@rollup-umd/word-documentation",
-  "version": "0.0.0-development",
+  "version": "2.0.1",
   "description": "Rollup-UMD documentation layout that aim to write a documentation/document with the styling of a word document",
   "main": "lib/index.js",
   "jsnext:main": "dist/@yeutech/word-documentation.esm.js",
@@ -37,7 +37,8 @@
     "jsdoc": "jsdoc-documentation --file",
     "prestyleguide": "npm run jsdoc",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "postinstall": "node -e \"console.log('\\u001b[31m@rollup-umd/word-documentation is deprecated, use @rollup-umd/word-documentation instead.')\" || exit 0"
   },
   "repository": {
     "type": "git",
