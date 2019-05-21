@@ -364,24 +364,5 @@
     ]
   },
   "declinationId": "bs",
-  "contributors": [],
-  "transitive": {
-    "name": "word-documentation",
-    "scope": "rollup-umd",
-    "scopedName": "@rollup-umd/word-documentation",
-    "jsnext:main": "dist/@yeutech/word-documentation.esm.js",
-    "module": "dist/@yeutech/word-documentation.esm.js",
-    "homepage": "https://rollup-umd.github.io/word-documentation",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/rollup-umd/word-documentation.git"
-    },
-    "bugs": {
-      "url": "https://github.com/rollup-umd/word-documentation/issues"
-    },
-    "publishConfig": {
-      "access": "public",
-      "registry": "https://registry.npmjs.org"
-    }
-  }
+  "contributors": []
 }
