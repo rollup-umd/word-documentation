@@ -242,7 +242,7 @@
     "@bootstrap-styled/rsg-components": "^2.1.2",
     "@bootstrap-styled/v4": "^3.0.15",
     "@fortawesome/react-fontawesome": "^0.1.4",
-    "@material-ui/core": "^3.9.3",
+    "@material-ui/core": "^4.12.4",
     "bootstrap-styled": "^2.4.13",
     "classnames": "^2.2.6",
     "lodash.debounce": "^4.0.8",
